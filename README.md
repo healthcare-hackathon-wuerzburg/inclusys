@@ -1,4 +1,4 @@
-# PROJECTNAME
+# Project MediGuard
 
 ## Problem Statement
 
@@ -14,21 +14,26 @@ This section describes the requirements of the project and how to get started.
 
 ### Requirements
 
-List all requirements here
-
+Server:
 - Python
-- x
-- y
+
+App:
+- React Native
 
 ### Installation
 
 Describe, how to install the project, like:
 
 1) clone the repository via `git clone ...`
-2) install dependencies via `npm install`
-3) start the dev server via `npm run dev`
-4) suddenly a miracle appears
-5) open your webbrowser on http://localhost:3000
+
+##### Set-up server
+1) install server dependencies via `pip install -r requirements. txt`
+2) start the dev server via `server.py`
+
+##### Set-up app
+1) install packages using `npm install`
+2) start react-native app e.g. with expo by `npx expo start`
+3) Press `w`to open in browser or scan qr code in terminal with the expoGo app to debug on device
 
 ## How to use the Project 
 
