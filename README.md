@@ -37,7 +37,8 @@ Describe, how to install the project, like:
 3) Press `w`to open in browser or scan qr code in terminal with the expoGo app to debug on device
 
 ## How to use the Project 
-Start the server and the application. Add your Cohere-API key into the apiKey.py file on the server.
+Start the server and the application. Add your Cohere-API key into a apiKey.py file on the server in the format:
+API_KEY = <<Key>>
 
 You can use this text for testing purposes:
 ```
