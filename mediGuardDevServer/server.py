@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS from flask_cors
 import cohere
 from prompts import ANONYMIZE_PROMPT
+from apiKey import API_KEY
 
 app = Flask(__name__)
 CORS(app) 
@@ -18,7 +19,7 @@ def request_anonymization():
     """
 
     userInput = request.get_json().get("userInput") 
-    co = cohere.Client('cZ4pvXjG1SSgmPb9p2Ze0sPdO1i7g6swctaTwHV2')
+    co = cohere.Client(API_KEY)
     aiResponse = co.generate(prompt=ANONYMIZE_PROMPT+userInput, truncate='END', return_likelihoods='NONE')
 
     return jsonify({'message': aiResponse[0]})
