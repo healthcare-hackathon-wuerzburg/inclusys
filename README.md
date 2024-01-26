@@ -58,8 +58,7 @@ Describe, how new team members can contribute to the existing repository, like:
 5) send changes against `main` branch
 
 ## Additional Information
-
-Are there any additional information that are important to understand how this code works?
+Note: The Cohere API-key was exposed in this project. This key was just used for development purposes and is not important.
 
 ## Useful links:
 
