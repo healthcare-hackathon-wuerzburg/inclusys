@@ -36,16 +36,20 @@ Describe, how to install the project, like:
 3) Press `w`to open in browser or scan qr code in terminal with the expoGo app to debug on device
 
 ## How to use the Project 
+Start the server and the application. Add your Cohere-API key into the apiKey.py file on the server.
 
-Describe, how someone can work with the developed application / library. How can I access basic functionality, ...
-
-## Deployment
-
-Describe, how the project can be deployed (if necessary). How can i spin up a docker container that executes something, how can i move the containers to a server, how can I use the trained ML model, ... (if applicable in your project context).
+You can use this text for testing purposes:
+```
+ There are six patients and more in the ward without the designation of any employee. Occasionally, Dr. Schmidt supervises the ward. The patients feel unattended and poorly informed due to the lack of any technical or manual system to monitor their vital signs. Also, there are no alarms to transfer to other areas, so they sometimes have to wait excessively long periods alone.
+``` 
 
 ## Project Overview
 
-Describe how the project is structured. Describe the architecture and the main components (if necessary) and the interaction between these components.
+###### App:
+Main Screens:
+- Home
+- ReportIncident
+    - mulitstep process iterating through multiple components (found in ./components)
 
 ## How to Contribute
 
