@@ -2,11 +2,12 @@
 
 ## Problem Statement
 
-Describe the main problem here.
-
+German Clinicians can share safety-related incidents anonymously via a online form. This means they get no feedback and guidance throughout this process. 
+Therefore only six to 8 reports per year are created for each hospital.
+The aim is to improve data quality and clinicians' commitment to reporting safety-related incidents in the healthcare sector. 
 ## Idea
 
-Describe how you are going to solve this problem
+For this a bot (mobile first) should be developed for clinicians to share, process and publish critical incidents anonymously.
 
 ## Getting Started
 
