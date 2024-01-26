@@ -9,17 +9,15 @@ The aim is to improve data quality and clinicians' commitment to reporting safet
 
 For this a bot (mobile first) should be developed for clinicians to share, process and publish critical incidents anonymously.
 
-## Getting Started
-
-This section describes the requirements of the project and how to get started.
-
 ### Requirements
 
 Server:
 - Python
+- Cohere API-key
 
 App:
 - React Native
+- Gluestack UI library
 
 ### Installation
 
@@ -52,6 +50,13 @@ Main Screens:
 - Home
 - ReportIncident
     - mulitstep process iterating through multiple components (found in ./components)
+
+## Next steps
+
+This project serves as a proof of concept for the conceptualized MediGuard app. It showcases how LLMs can support the report creating by analyzing and formatting text.
+We set up the basic project for future development and added gluestack UI library. This way our figma-concept (...) can be easily converted into a production ready application frontend.
+
+
 
 ## How to Contribute
 
