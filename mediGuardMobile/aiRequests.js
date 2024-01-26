@@ -1,4 +1,5 @@
-const anonymizeText = async (input) => {
+//here are all requests send to the server to fetch AI-Input
+const anonymizeAndSummarizeText = async (input) => {
     try {
         const response = await fetch('http://127.0.0.1:5000/anonymize', {
             method: 'POST',
@@ -9,11 +10,11 @@ const anonymizeText = async (input) => {
             body: JSON.stringify({ userInput: input }),
         });
         const data = await response.json();
-        console.log(data);
+        console.log(data)
         return data;
     }catch (error){
         console.error(error);
     }
 };
 
-export default anonymizeText;
+export default anonymizeAndSummarizeText;
